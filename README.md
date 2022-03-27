@@ -1,4 +1,4 @@
-# horsebet
+# Horsebet
 
 Having fun with making original problem originally stated by Enns and Ferenstein a little bit more interesting. 
 
