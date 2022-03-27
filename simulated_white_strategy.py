@@ -101,9 +101,9 @@ for i in ns:
     old.append(val)
 
 
-plt.scatter(ns, classic, label = 'classic')
-plt.scatter(ns, all_power, label = 'all power')
-plt.scatter(ns, old, label = 'old')
+plt.scatter(ns, classic, label = 'with |1 - d|')
+plt.scatter(ns, all_power, label = 'with (1 - d)^(n - 1)')
+plt.scatter(ns, old, label = 'old game version')
 #plt.scatter(ns, vals_black_barrier)
 #plt.scatter(ns, vals_black_standard)
 plt.legend()
