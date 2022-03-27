@@ -67,7 +67,7 @@ dict_classic = {k: [] for k in range(2, 100)}
 dict_all_power = {k: [] for k in range(2, 100)}
 dict_old= {k: [] for k in range(2, 100)}
 
-for b in [0.5]:
+for b in [0.9999]:
     for i in range(10000):
         for j in range(2, 100):
             print(b, i, j)
