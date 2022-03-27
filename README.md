@@ -12,6 +12,6 @@ As shown by Enns and Ferenstein, the probability of Mr White victory when n -> i
 After playing many games, having lost over 2/3 of them, Mr Black wants to change the rules to have the greater chances of winning. Now, at the beginning of the season, random barrier value is stated. 
 Mr Black has two ways to win:
 1. Take the greater score than Mr White (as usual)
-2. Take a result close enough to the barrier such that $f(d)$ is greater than result selected by Mr White, where d is equal to distance of chosen score to the barrier. We consider to versions of f:
+2. Take a result close enough to the barrier such that $f(d)$ is greater than result selected by Mr White, where d is equal to distance of chosen score to the barrier. We consider two versions of f:
 * f(d) = |1 - d|
 * f(d) = (1 - d)^(n-1)
